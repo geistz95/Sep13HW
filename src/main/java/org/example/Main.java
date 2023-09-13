@@ -14,5 +14,7 @@ public class Main {
         Animal dog = new Animal("Dog", descriptionDog, "Woof Woof", 7582 , ageDog);
         Animal bear = new Animal("Bear", descriptionBear, "Roar", 9182, ageBear);
         cat.printInfo();
+	dog.printInfo();
+	bear.printInfo();
     }
 }
